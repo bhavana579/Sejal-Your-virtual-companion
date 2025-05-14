@@ -1,0 +1,49 @@
+Here are 10 important operating system questions and answers:
+
+**1. What is an Operating System (OS)?**
+
+Answer: An Operating System (OS) is a software that manages computer hardware resources and provides common services to computer programs. It acts as an intermediary between computer hardware and user-level applications.
+
+**2. What are the main functions of an Operating System?**
+
+Answer: The main functions of an Operating System are:
+
+* Process Management: Managing the creation, execution, and termination of processes.
+* Memory Management: Managing the allocation and deallocation of memory for running programs.
+* File Management: Managing the creation, deletion, and modification of files.
+* Input/Output (I/O) Management: Managing input/output operations between devices and programs.
+* Security: Providing mechanisms for controlling access to computer resources.
+
+**3. What is the difference between a Monolithic Kernel and a Microkernel?**
+
+Answer: A Monolithic Kernel is a single large program that contains all operating system services, whereas a Microkernel is a small core that provides basic services and relies on external modules for additional services.
+
+**4. What is a Process?**
+
+Answer: A Process is a program in execution, including the current activity, memory, and system resources allocated to it. It is a unit of work that is being executed by the CPU.
+
+**5. What is a Thread?**
+
+Answer: A Thread is a lightweight process that shares the same memory space as other threads in the same process. It is a unit of execution that can be scheduled by the operating system.
+
+**6. What is Deadlock? How can it be prevented?**
+
+Answer: Deadlock is a situation where two or more processes are blocked indefinitely, each waiting for the other to release a resource. It can be prevented by using resource ordering, banker's algorithm, and avoiding circular waits.
+
+**7. What is Paging and Segmentation?**
+
+Answer: Paging is a memory management technique that divides physical memory into fixed-size blocks called pages, while Segmentation is a technique that divides a program into logical segments or modules.
+
+**8. What is Virtual Memory?**
+
+Answer: Virtual Memory is a memory management technique that uses a combination of physical memory and secondary storage (hard disk) to provide a large address space for programs.
+
+**9. What is Multitasking and Multiprocessing?**
+
+Answer: Multitasking is the ability of an operating system to execute multiple tasks concurrently, while Multiprocessing is the use of multiple processors to execute tasks concurrently.
+
+**10. What is a System Call?**
+
+Answer: A System Call is a request made by a program to the operating system to perform a specific task, such as process creation, file management, or I/O operations.
+
+I hope these questions and answers help!

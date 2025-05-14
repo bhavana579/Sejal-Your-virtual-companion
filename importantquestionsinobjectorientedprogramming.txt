@@ -1,0 +1,43 @@
+Here are 10 more important questions in Object-Oriented Programming (OOP):
+
+**1. What is the concept of composition in OOP, and how does it differ from inheritance?**
+
+Answer: Composition is a mechanism in OOP where an object is composed of other objects, which are responsible for specific tasks. This differs from inheritance, where a child class inherits the properties and behavior of a parent class.
+
+**2. How do you implement polymorphic behavior in OOP using function overriding and function overloading?**
+
+Answer: Polymorphic behavior can be implemented using function overriding, where a child class provides a different implementation of a method already defined in its parent class. Function overloading involves defining multiple methods with the same name but different parameters.
+
+**3. What is the difference between an interface and an abstract class in OOP?**
+
+Answer: An interface defines a contract that must be implemented by any class that implements it, without providing any implementation. An abstract class provides a partial implementation of a class, with some methods defined and others left abstract.
+
+**4. How do you handle circular dependencies in OOP, and what are the potential consequences?**
+
+Answer: Circular dependencies occur when two or more classes depend on each other, leading to a cycle of dependencies. This can be handled using dependency injection, where dependencies are provided to a class rather than being hardcoded.
+
+**5. What is the concept of dependency injection in OOP, and how does it promote loose coupling?**
+
+Answer: Dependency injection is a technique where dependencies are provided to a class rather than being hardcoded. This promotes loose coupling, where classes are not tightly coupled to specific implementations, making it easier to change or replace dependencies.
+
+**6. How do you implement the Singleton design pattern in OOP, and what are its advantages and disadvantages?**
+
+Answer: The Singleton design pattern involves creating a single instance of a class, which is globally accessible. This can be implemented using a private constructor and a public static method that returns the instance.
+
+**7. What is the concept of encapsulation in OOP, and how does it promote data hiding?**
+
+Answer: Encapsulation is the concept of bundling data and methods that operate on that data within a single unit (a class or object). This promotes data hiding by restricting access to the data and ensuring that it can only be modified through controlled interfaces.
+
+**8. How do you implement the Factory design pattern in OOP, and what are its advantages and disadvantages?**
+
+Answer: The Factory design pattern involves creating objects without exposing the creation logic to the client code. This can be implemented using a factory class that provides a method to create objects.
+
+**9. What is the concept of type casting in OOP, and how does it differ from type conversion?**
+
+Answer: Type casting involves converting an object of one type to another type, usually using a cast operator. Type conversion involves converting a value of one type to another type, usually using a conversion function.
+
+**10. How do you handle null pointer exceptions in OOP, and what are the best practices to avoid them?**
+
+Answer: Null pointer exceptions occur when a null reference is dereferenced. This can be handled using null checks, try-catch blocks, and design patterns like the Null Object pattern. Best practices to avoid null pointer exceptions include using design patterns, validating input, and using defensive programming techniques.
+
+I hope these questions help!

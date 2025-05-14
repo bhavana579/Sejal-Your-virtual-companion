@@ -1,0 +1,550 @@
+[
+    {
+        "role": "user",
+        "content": "Application."
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like you want to know the application of something, but you haven't specified what. Could you please provide more context or clarify what you're referring to? I'll do my best to provide a helpful response."
+    },
+    {
+        "role": "user",
+        "content": "What is my age?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not aware of your birthdate, so I cannot determine your age."
+    },
+    {
+        "role": "user",
+        "content": "What is my age?"
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, but I still don't have any information about your birthdate. If you provide me with your birthdate, I can calculate your age for you."
+    },
+    {
+        "role": "user",
+        "content": "Sejal i was born in 2005 what is my age?"
+    },
+    {
+        "role": "assistant",
+        "content": "Since you were born in 2005 and the current year is 2025, I can calculate your age as 20 years old."
+    },
+    {
+        "role": "user",
+        "content": "What is the capital of france?"
+    },
+    {
+        "role": "assistant",
+        "content": "The capital of France is Paris."
+    },
+    {
+        "role": "user",
+        "content": "What is 999 + 999 + 999?"
+    },
+    {
+        "role": "assistant",
+        "content": "The calculation is:\n\n999 + 999 = 1998\n1998 + 999 = 2997\n\nSo the answer is 2997."
+    },
+    {
+        "role": "user",
+        "content": "Sejal i am feeling sad."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm so sorry to hear that you're feeling sad. Would you like to talk about what's bothering you? Sometimes sharing your feelings can help you feel better. I'm here to listen and offer support if you need it."
+    },
+    {
+        "role": "user",
+        "content": "Tomorrow i have its okay wait wait."
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like you're trying to say that tomorrow is okay, but you're not finishing your thought. Could you please complete your sentence or provide more context about what you're trying to say? I'm here to help if you need anything."
+    },
+    {
+        "role": "user",
+        "content": "Better."
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like you're saying that things will be better. I hope that's true for you! Remember that I'm here if you need someone to talk to or if there's anything I can do to help."
+    },
+    {
+        "role": "user",
+        "content": "Video."
+    },
+    {
+        "role": "assistant",
+        "content": "You said \"video\". Are you looking for a specific video or do you want to know more about videos in general?"
+    },
+    {
+        "role": "user",
+        "content": "Mama."
+    },
+    {
+        "role": "assistant",
+        "content": "You said \"mama\". Are you thinking about your mother or is there something else related to \"mama\" that you'd like to talk about?"
+    },
+    {
+        "role": "user",
+        "content": "I think."
+    },
+    {
+        "role": "assistant",
+        "content": "You're thinking about something. Would you like to share what's on your mind? I'm here to listen and help if I can."
+    },
+    {
+        "role": "user",
+        "content": "Who is mahesh babu?"
+    },
+    {
+        "role": "user",
+        "content": "The following information was found from a real-time Google search:\nThe search results for 'Who is mahesh babu?' are:\n[start]\nTitle: Mahesh Babu - Wikipedia\nDescription:  Ghattamaneni Mahesh Babu (born 9 August 1975) is an Indian actor and film producer who works in Telugu cinema. He is one of the highest-paid actors in Indian\u00a0... \n\nTitle: \nDescription:  Ghattamaneni Mahesh Babu is an Indian actor and film producer who works in Telugu cinema. He is one of the highest-paid actors in Indian cinema and has featured in Forbes India's Celebrity 100 list since 2012. Referred to in the media as...   Wikipedia \n\nTitle: Mahesh Babu - Movies, Biography, News, Age & Photos\nDescription:  Born on 9th August 1975, as Mahesh Ghattamaneni, Mahesh Babu is a popular Indian actor who works in the Telugu film industry. \n\nTitle: Mahesh Babu filmography - Wikipedia\nDescription:  Mahesh Babu is an Indian actor and producer known for his work in Telugu cinema. He first appeared in the 1979 film Needa when he was four years old. He\u00a0... \n\nTitle: Mahesh Babu (@urstrulymahesh) \u2022 Instagram photos and videos\nDescription:  Actor in Indian Telugu Cinema \u00b7 Photo shared by Mahesh Babu on February 09, 2025 tagging @namratashirodkar. \u00b7 Photo shared by Mahesh Babu on January 21, 2025\u00a0... \n\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": "Mahesh Babu is an Indian actor and film producer who works in Telugu cinema. He was born on August 9, 1975, and is one of the highest-paid actors in Indian cinema."
+    },
+    {
+        "role": "user",
+        "content": "Apple stock prices today."
+    },
+    {
+        "role": "user",
+        "content": "The following information was found from a real-time Google search:\nThe search results for 'Apple stock prices today.' are:\n[start]\nTitle: Stock Price - Apple Investor Relations\nDescription:  Stock Quote: NASDAQ: AAPL ; Day's Open204.89 ; Closing Price208.37 ; Volume47.3 ; Intraday High208.83 ; Intraday Low202.94. \n\nTitle: AAPL: Apple Inc - Stock Price, Quote and News - CNBC\nDescription:  Apple Inc AAPL:NASDAQ \u00b7 Open204.89 \u00b7 Day High208.83 \u00b7 Day Low202.94 \u00b7 Prev Close204.60 \u00b7 52 Week High260.10 \u00b7 52 Week High Date12/26/24 \u00b7 52 Week Low166.21 \u00b7 52\u00a0... \n\nTitle: Apple Share Price (NASDAQ: AAPL) - Apple Stock Price Live Chart\nDescription:  Rating   4.7  (3,71,551) \n\nTitle: Apple Inc. Stock Quote (U.S.: Nasdaq) - AAPL - MarketWatch\nDescription:  Apple Inc. ; Open $204.89 ; Day Range 202.94 - 208.83 ; 52 Week Range 168.15 - 260.10 ; Market Cap $3.13T ; Public Float 15.01B\u00a0... \n\nTitle: Apple Inc. (AAPL) - Yahoo Finance\nDescription:  Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. \n\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": "As of the current date, April 25, 2025, the Apple stock price is:\n\nOpen: $204.89\nDay's High: $208.83\nDay's Low: $202.94\nPrevious Close: $204.60\n\nPlease note that stock prices may fluctuate rapidly and are subject to change."
+    },
+    {
+        "role": "user",
+        "content": "Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! It's nice to chat with you again. Is there something on your mind that you'd like to talk about or ask? I'm here to listen and help if I can."
+    },
+    {
+        "role": "user",
+        "content": "What is my name?"
+    },
+    {
+        "role": "assistant",
+        "content": "Your name is Keerthi PB."
+    },
+    {
+        "role": "user",
+        "content": "Chat."
+    },
+    {
+        "role": "assistant",
+        "content": "You said \"chat\". Are you referring to our conversation or do you want to chat about something specific?"
+    },
+    {
+        "role": "user",
+        "content": "What is your name?"
+    },
+    {
+        "role": "assistant",
+        "content": "My name is Sejal. I'm a chatbot, and I'm here to help answer your questions and provide information on a wide range of topics."
+    },
+    {
+        "role": "user",
+        "content": "Mahindra."
+    },
+    {
+        "role": "assistant",
+        "content": "Mahindra is an Indian multinational conglomerate with a presence in various industries such as automobiles, tractors, IT, and more."
+    },
+    {
+        "role": "user",
+        "content": "What is my name?"
+    },
+    {
+        "role": "assistant",
+        "content": "Your name is Keerthi PB."
+    },
+    {
+        "role": "user",
+        "content": "Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! It's nice to chat with you again, Keerthi PB. Is there something on your mind that you'd like to talk about or ask? I'm here to listen and help if I can."
+    },
+    {
+        "role": "user",
+        "content": "What is my age?"
+    },
+    {
+        "role": "assistant",
+        "content": "You were born in 2005, and the current year is 2025, so you are 20 years old."
+    },
+    {
+        "role": "user",
+        "content": "Sin x."
+    },
+    {
+        "role": "assistant",
+        "content": "You're referring to the sine function in mathematics. The sine of x, denoted as sin(x), is a trigonometric function that represents the ratio of the opposite side to the hypotenuse of a right-angled triangle."
+    },
+    {
+        "role": "user",
+        "content": "Is the integration of sin x."
+    },
+    {
+        "role": "assistant",
+        "content": "The integral of sin(x) is -cos(x) + C, where C is the constant of integration."
+    },
+    {
+        "role": "user",
+        "content": "Suggest some food places in hyderabad."
+    },
+    {
+        "role": "user",
+        "content": "The following information was found from a real-time Google search:\nThe search results for 'Suggest some food places in hyderabad.' are:\n[start]\nTitle: The Best Restaurants in Hyderabad for Dining Out - Zomato\nDescription:  Restaurants in Hyderabad \u00b7 Lake District Bar & Kitchen \u00b7 Raja Deluxe \u00b7 Barbeque Spice \u00b7 Moyaaah! \u00b7 Palace Heights \u00b7 The Dining Room - Park Hyatt \u00b7 Red Rhino. \n\nTitle: THE 10 BEST Restaurants in Hyderabad (Updated April 2025)\nDescription:  The best restaurants in Hyderabad include: Hard Rock Cafe \u00b7 Bidri \u00b7 Yi Jing. What are the best restaurants in Hyderabad for families with\u00a0... \n\nTitle: As a newbie in Hyderabad, what places should I absolutely visit for ...\nDescription:  1 Oct 2017  \u00b7  Biryani eateries. Shahdab Biryani point, Charminar Paradise Biryani, Secunderabad \u00b7 Snacks and Evening Refreshments Dadus Mithai Vatika (snacks\u00a0... \n\nTitle: Must try food in Hyderabad. : r/hyderabad - Reddit\nDescription:  28 Aug 2024  \u00b7  Roast CCX cafe- they have very very very huge menu try their omelettes and desserts and of course coffee. Cafe Niloufer - Chai and Maska Bun. \n\nTitle: 15 Best Places To Eat In Hyderabad | Local Foodie's Guidebook\nDescription:  28 Jun 2024  \u00b7  1. Pista House \u00b7 2. Shah Ghouse \u00b7 3. Paradise \u00b7 4. Theth Masala \u00b7 5. Naatu Kitchen and Bar \u00b7 6. Tevar \u2013 The Progressive Indian Kitchen and Bar \u00b7 7. \n\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": "Here are some suggested food places in Hyderabad:\n\n1. Lake District Bar & Kitchen\n2. Raja Deluxe\n3. Barbeque Spice\n4. Moyaaah!\n5. Palace Heights\n6. The Dining Room - Park Hyatt\n7. Red Rhino\n8. Hard Rock Cafe\n9. Bidri\n10. Yi Jing\n11. Shahdab Biryani point\n12. Charminar Paradise Biryani\n13. Secunderabad\n14. Dadus Mithai Vatika\n15. Roast CCX cafe\n16. Cafe Niloufer\n17. Pista House\n18. Shah Ghouse\n19. Paradise\n20. Theth Masala\n21. Naatu Kitchen and Bar\n22. Tevar \u2013 The Progressive Indian Kitchen and Bar\n\nPlease note that this is not an exhaustive list, and there are many more amazing food places in Hyderabad. Enjoy your culinary adventure!"
+    },
+    {
+        "role": "user",
+        "content": "Ppt download."
+    },
+    {
+        "role": "assistant",
+        "content": "You want to download a PowerPoint presentation (PPT). Could you please provide more context or specify which PPT you're looking for? I'd be happy to help you find it."
+    },
+    {
+        "role": "user",
+        "content": "We haven't had a that teacher."
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like you're referring to a teacher or a class, but I'm not aware of any specific context or information about a teacher or class. Could you please provide more details or clarify what you're trying to say? I'm here to help if you need anything."
+    },
+    {
+        "role": "user",
+        "content": "Down."
+    },
+    {
+        "role": "assistant",
+        "content": "You said \"down\". Are you referring to something being down or moving downward? Could you please provide more context or clarify what you mean? I'm here to help if you need anything."
+    },
+    {
+        "role": "user",
+        "content": "I am happy today where should i?"
+    },
+    {
+        "role": "assistant",
+        "content": "You're feeling happy today! That's great! As for where you should go, could you please provide more context or clarify what you're looking for? Are you looking for suggestions on places to visit, things to do, or something else? I'd be happy to help if I can!"
+    },
+    {
+        "role": "user",
+        "content": "Food places for biryani in hyderabad."
+    },
+    {
+        "role": "assistant",
+        "content": "You're looking for food places that serve delicious biryani in Hyderabad! Here are some popular options:\n\n1. Paradise Food Court\n2. Shah Ghouse Cafe\n3. Pista House\n4. Charminar Paradise Biryani\n5. Shahdab Biryani point\n6. Bawarchi Restaurant\n7. Hotel Shadab\n8. Firdaus Restaurant\n9. Grand Hotel\n10. Taj Mahal Hotel\n\nThese are just a few of the many amazing places that serve mouth-watering biryani in Hyderabad. Enjoy your culinary adventure!"
+    },
+    {
+        "role": "user",
+        "content": "Please don't."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize if I did something that bothered you. Could you please clarify what you meant by \"please don't\"? What would you like me to avoid or stop doing? I'm here to help and want to make sure I'm not causing any inconvenience."
+    },
+    {
+        "role": "user",
+        "content": "Limitations."
+    },
+    {
+        "role": "assistant",
+        "content": "You said \"limitations\". Are you referring to the limitations of something specific, like a technology, a system, or a concept? Or are you talking about limitations in general? Could you please provide more context or clarify what you mean? I'm here to help if you need anything."
+    },
+    {
+        "role": "user",
+        "content": "We have work on front and it is like simultaneous."
+    },
+    {
+        "role": "assistant",
+        "content": "You're saying that you have work to do on the front end, and it's like simultaneous work. Are you referring to simultaneous tasks or concurrent processing in a software development context? Or could you please provide more context or clarify what you mean? I'm here to help if you need anything."
+    },
+    {
+        "role": "user",
+        "content": "Show me?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'd be happy to help! However, I need more context or information about what you'd like me to show you. Could you please clarify or provide more details about what you're looking for?"
+    },
+    {
+        "role": "user",
+        "content": "Party songs."
+    },
+    {
+        "role": "assistant",
+        "content": "You want to know some party songs! Here are a few popular ones:\n\n1. \"Uptown Funk\" by Mark Ronson ft. Bruno Mars\n2. \"Can't Stop the Feeling!\" by Justin Timberlake\n3. \"Happy\" by Pharrell Williams\n4. \"I Gotta Feeling\" by The Black Eyed Peas\n5. \"Pumped Up Kicks\" by Foster the People\n6. \"All About That Bass\" by Meghan Trainor\n7. \"Shut Up and Dance\" by Walk the Moon\n8. \"Cake by the Ocean\" by DNCE\n9. \"We Found Love\" by Rihanna ft. Calvin Harris\n10. \"SexyBack\" by Justin Timberlake\n\nThese are just a few examples, and there are many more party songs out there! Do you have a specific genre or style in mind?"
+    },
+    {
+        "role": "user",
+        "content": "Okay, bye."
+    },
+    {
+        "role": "assistant",
+        "content": "It was nice chatting with you, Keerthi PB! Feel free to come back and ask me anything anytime. Have a great day! Bye!"
+    },
+    {
+        "role": "user",
+        "content": "Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again, Keerthi PB! It's nice to see you again. Is there something on your mind that you'd like to talk about or ask? I'm here to listen and help if I can."
+    },
+    {
+        "role": "user",
+        "content": "What is the capital of france?"
+    },
+    {
+        "role": "assistant",
+        "content": "The capital of France is Paris."
+    },
+    {
+        "role": "user",
+        "content": "Okay, bye."
+    },
+    {
+        "role": "assistant",
+        "content": "It was nice chatting with you, Keerthi PB! Feel free to come back and ask me anything anytime. Have a great day! Bye!"
+    },
+    {
+        "role": "user",
+        "content": "Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again, Keerthi PB! It's nice to see you again. Is there something on your mind that you'd like to talk about or ask? I'm here to listen and help if I can."
+    },
+    {
+        "role": "user",
+        "content": "Send a message on whatsapp."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm a large language model, I don't have the capability to send messages on WhatsApp or any other messaging platform. However, I can help you draft a message if you'd like!"
+    },
+    {
+        "role": "user",
+        "content": "Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again, Keerthi PB! It's nice to see you again. Is there something on your mind that you'd like to talk about or ask? I'm here to listen and help if I can."
+    },
+    {
+        "role": "user",
+        "content": "Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again, Keerthi PB! It's nice to see you again. Is there something on your mind that you'd like to talk about or ask? I'm here to listen and help if I can."
+    },
+    {
+        "role": "user",
+        "content": "Whatsapp."
+    },
+    {
+        "role": "assistant",
+        "content": "You said \"WhatsApp\". Are you looking to send a message on WhatsApp or need help with something related to WhatsApp? I'm here to assist you!"
+    },
+    {
+        "role": "user",
+        "content": "Good morning."
+    },
+    {
+        "role": "assistant",
+        "content": "Good morning, Keerthi PB! I hope you're having a wonderful day so far. Is there anything on your mind that you'd like to talk about or ask? I'm here to listen and help if I can."
+    },
+    {
+        "role": "user",
+        "content": "Okay, bye."
+    },
+    {
+        "role": "assistant",
+        "content": "It was nice chatting with you, Keerthi PB! Feel free to come back and ask me anything anytime. Have a fantastic day! Bye!"
+    },
+    {
+        "role": "user",
+        "content": "Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again, Keerthi PB! It's nice to see you again. Is there something on your mind that you'd like to talk about or ask? I'm here to listen and help if I can."
+    },
+    {
+        "role": "user",
+        "content": "Who is the prime minister of india?"
+    },
+    {
+        "role": "user",
+        "content": "The following information was found from a real-time Google search:\nThe search results for 'Who is the prime minister of india?' are:\n[start]\nTitle: \nDescription: /\n\nTitle: Prime Minister of India - Wikipedia\nDescription:  The prime minister is appointed by the president of India; however, the prime minister has to enjoy the confidence of the majority of Lok Sabha members, who are\u00a0... \n\nTitle: \nDescription:  Narendra Damodardas Modi is an Indian politician who has served as the prime minister of India since 2014. Modi was the chief minister of Gujarat from 2001 to 2014 and is the member of parliament for Varanasi.   Wikipedia \n\nTitle: Prime Minister of India\nDescription:  Shri Narendra Modi was sworn-in as India's Prime Minister for the third time on 9th June 2024, following another decisive victory in the 2024 Parliamentary\u00a0... \n\nTitle: PM Sangrahlaya - a Tribute to India's Prime Ministers\nDescription:  Shri Narendra Modi is the current and the fourth longest-serving Prime Minister of India. He served as the Chief Minister of Gujarat for 14 years and was\u00a0... \n\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": "The Prime Minister of India is Narendra Damodardas Modi. He has been serving as the Prime Minister of India since 2014."
+    },
+    {
+        "role": "user",
+        "content": "Can you give me a plan to visit the tea estate and how should i go from?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'd be happy to help! However, I need more information from you. Could you please provide more context or clarify which tea estate you're referring to? Are you looking to visit a specific one in a particular region or state in India?\n\nAlso, could you please provide more details about your travel plans, such as:\n\n1. Your starting location (city)\n2. Your preferred mode of transportation (e.g., train, bus, flight)\n4. Your budget for the trip\n5. The number of people traveling with you\n6. Any specific amenities or activities you're looking for during your visit (e.g., accommodation, guided tours, tea tasting)\n\nOnce I have more information, I can provide you with a more tailored plan and guidance on how to get there."
+    },
+    {
+        "role": "user",
+        "content": "What is my name?"
+    },
+    {
+        "role": "assistant",
+        "content": "Your name is Keerthi PB."
+    },
+    {
+        "role": "user",
+        "content": "My name is kirti uma bhavna status."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize for the mistake earlier. Your name is indeed Keerthi Uma Bhavana."
+    },
+    {
+        "role": "user",
+        "content": "Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, Keerthi"
+    },
+    {
+        "role": "user",
+        "content": "What is my name?"
+    },
+    {
+        "role": "assistant",
+        "content": "Your name is Keerthi Uma Bhavana."
+    },
+    {
+        "role": "user",
+        "content": "What is my age?"
+    },
+    {
+        "role": "assistant",
+        "content": "You were born in 2005, and the current year is 2025, so you are 20 years old."
+    },
+    {
+        "role": "user",
+        "content": "Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, Keerthi"
+    },
+    {
+        "role": "user",
+        "content": "What is my name?"
+    },
+    {
+        "role": "assistant",
+        "content": "Your name is Keerthi Uma Bhavana."
+    },
+    {
+        "role": "user",
+        "content": "Real time."
+    },
+    {
+        "role": "assistant",
+        "content": "You said \"real time\". Are you referring to the current date and time, which is May 12, 2025, 09:57:14?"
+    },
+    {
+        "role": "user",
+        "content": "What is the integral of sin x + cos x?"
+    },
+    {
+        "role": "assistant",
+        "content": "The integral of sin(x) + cos(x) is -cos(x) + sin(x) + C, where C is the constant of integration."
+    },
+    {
+        "role": "user",
+        "content": "What is my age?"
+    },
+    {
+        "role": "assistant",
+        "content": "You were born in 2005, and the current year is 2025, so you are 20 years old."
+    },
+    {
+        "role": "user",
+        "content": "Sejal i feel sad."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm so sorry to hear that you're feeling sad, Keerthi. Would you like to talk about what's bothering you? Sometimes sharing your feelings can help you feel better. I'm here to listen and offer support if you need it."
+    },
+    {
+        "role": "user",
+        "content": "Because there are so many soldiers losing their life so war."
+    },
+    {
+        "role": "assistant",
+        "content": "It can be very upsetting and sad to hear about soldiers losing their lives in war. It's natural to feel empathy and concern for those who are putting their lives on the line to protect others. It's okay to feel sad and to acknowledge those feelings. Would you like to talk more about what's on your mind?"
+    },
+    {
+        "role": "user",
+        "content": "Who is india's richest actor?"
+    },
+    {
+        "role": "user",
+        "content": "The following information was found from a real-time Google search:\nThe search results for 'Who is india's richest actor?' are:\n[start]\nTitle: Top 25 Richest Indian Celebrities 2024-2025 - IMDb\nDescription:  Top 25 Richest Indian Celebrities 2024-2025 \u00b7 1. Shah Rukh Khan \u00b7 2. Salman Khan \u00b7 3. Amitabh Bachchan \u00b7 4. Juhi Chawla \u00b7 5. Hrithik Roshan \u00b7 6. Akshay Kumar. \n\nTitle: List Of Top 10 Richest Indian Actors And Their Net Worth\nDescription:  17 Jan 2025  \u00b7  Shah Rukh Khan is the richest actor in India with a net worth of \u20b97300 Crore. Actors like Salman Khan, Saif Ali Khan and Amitabh Bachchan have all attained\u00a0... \n\nTitle: Top 10 highest-paid actors in India in 2025 and their net worth\nDescription:  20 Mar 2025  \u00b7  Shah Rukh Khan, often referred to as \u201cKing Khan,\u201d holds the title of the richest Indian actor, with an estimated net worth of Rs 6,300 crore. \n\nTitle: Top 10 Richest Actors in India 2025 | Net Worth & Rankings\nDescription:  15 Apr 2025  \u00b7  Top 10 Richest Actors in India and Their Net Worth in 2025 \u00b7 Shah Rukh Khan \u00b7 Salman Khan \u00b7 Ranbir Kapoor \u00b7 Akshay Kumar \u00b7 Hrithik Roshan. \n\nTitle: Shah Rukh Khan only Indian among Esquire Magazine's Top 10 ...\nDescription:  8 days ago  \u00b7  Shah Rukh Khan is among the world's wealthiest actors. He secures the fourth position on the 2025 list. His estimated net worth is $876.5\u00a0... \n\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, Shah Rukh Khan is India's richest actor, with an estimated net worth ranging from \u20b96,300 crore to \u20b97300 crore."
+    },
+    {
+        "role": "user",
+        "content": "Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, Keerthi Uma Bhavana! It's nice to chat with you again. Is there something on your mind that you'd like to talk about or ask? I'm here to listen and help if I can."
+    },
+    {
+        "role": "user",
+        "content": "Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, Keerthi Uma Bhavana! It's nice to chat with you again. Is there something on your mind that you'd like to talk about or ask? I'm here to listen and help if I can."
+    },
+    {
+        "role": "user",
+        "content": "Sejal i am sad."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm so sorry to hear that you're feeling sad, Keerthi. Would you like to talk about what's bothering you? Sometimes sharing your feelings can help you feel better. I'm here to listen and offer support if you need it."
+    },
+    {
+        "role": "user",
+        "content": "To recognise that it is me and i am trying to start the conversation and so that's why i think you have seen a movie recently you that because of that one that person has died?"
+    },
+    {
+        "role": "assistant",
+        "content": "I think I understand what you're trying to say. You're trying to start a conversation with me, and you're referencing a movie where a character dies? Am I correct?"
+    }
+]

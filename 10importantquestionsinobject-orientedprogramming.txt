@@ -1,0 +1,43 @@
+Here are 10 important questions in Object-Oriented Programming (OOP):
+
+**1. What is Object-Oriented Programming (OOP) and what are its key features?**
+
+Answer: Object-Oriented Programming is a programming paradigm that revolves around the concept of objects and classes. The key features of OOP include encapsulation, inheritance, polymorphism, and abstraction.
+
+**2. What is the difference between a class and an object?**
+
+Answer: A class is a blueprint or a template that defines the properties and behavior of an object, while an object is an instance of a class, having its own set of attributes (data) and methods (functions).
+
+**3. What is inheritance in OOP, and how does it promote code reuse?**
+
+Answer: Inheritance is a mechanism in OOP where a child class inherits the properties and behavior of a parent class, allowing for code reuse and a more hierarchical organization of code.
+
+**4. What is polymorphism in OOP, and how is it achieved?**
+
+Answer: Polymorphism is the ability of an object to take on multiple forms, depending on the context. It is achieved through method overriding (where a child class provides a different implementation of a method already defined in its parent class) or method overloading (where multiple methods with the same name can be defined, each with different parameters).
+
+**5. What is encapsulation in OOP, and how does it help with data hiding?**
+
+Answer: Encapsulation is the concept of bundling data and methods that operate on that data within a single unit (a class or object). This helps with data hiding by restricting access to the data and ensuring that it can only be modified through controlled interfaces.
+
+**6. What is abstraction in OOP, and how does it simplify complex systems?**
+
+Answer: Abstraction is the process of exposing only the necessary information to the outside world while hiding the implementation details. This simplifies complex systems by providing a higher-level interface to interact with, without worrying about the underlying complexities.
+
+**7. How do you implement operator overloading in OOP?**
+
+Answer: Operator overloading involves redefining the behavior of operators (such as +, -, \*, /) for user-defined data types. This is typically done by defining a special method in the class that corresponds to the operator being overloaded.
+
+**8. What is the difference between an abstract class and an interface in OOP?**
+
+Answer: An abstract class provides a partial implementation of a class, with some methods defined and others left abstract (to be implemented by subclasses). An interface, on the other hand, defines a contract that must be implemented by any class that implements it, without providing any implementation.
+
+**9. How do you handle multiple inheritance in OOP, and what are the potential pitfalls?**
+
+Answer: Multiple inheritance allows a class to inherit from multiple parent classes. However, this can lead to the "diamond problem" (where a class inherits conflicting methods from its parent classes). To handle this, languages like Python use a method resolution order (MRO) to resolve conflicts.
+
+**10. What is the role of constructors and destructors in OOP?**
+
+Answer: Constructors are special methods called when an object is created, used to initialize the object's state. Destructors, on the other hand, are called when an object is about to be destroyed, used to release resources and perform cleanup tasks.
+
+I hope these questions help!

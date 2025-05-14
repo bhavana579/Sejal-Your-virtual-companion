@@ -1,0 +1,229 @@
+from Frontend.GUI import (
+GraphicalUserInterface,
+SetAssistantStatus,
+ShowTextToScreen,
+SetMicrophoneStatus,
+TempDirectoryPath,
+AnswerModifier,
+QueryModifier, 
+GetMicrophoneStatus, 
+GetAssistantStatus )
+from Backend.Model import FirstLayerDMM
+from Backend.RealtimeSearchEngine import RealtimeSearchEngine
+from Backend.Automation import Automation
+from Backend.SpeechToText import SpeechRecognition
+from Backend.Chatbot import ChatBot
+from Backend.TextToSpeech import TextToSpeech
+from dotenv import dotenv_values
+from asyncio import run
+from time import sleep
+import subprocess
+import threading
+import json
+import os 
+#imports added newly
+from Backend.Automation import send_whatsapp_message
+import pyautogui
+
+
+
+env_vars = dotenv_values(".env")
+Username =env_vars.get("Username")
+Assistantname = env_vars.get("Assistantname")
+DefaultMessage = f'''{Username}: Hello {Assistantname}, How are you?
+{Assistantname}: Welcome {Username}. I am doing well. How may i help you?'''
+subprocesses = []
+Functions = ["open", "close", "play", "system", "content", "google search", "youtube search"]
+
+#changed code twice , pt1 pt2 
+#learnt new features should update later!!!!!!!!!!!!!!!!!!!!!!@#$%^&
+def ShowDefaultChatIfNoChats():
+    File =open(r'Data\ChatLog.json', "r", encoding='utf-8')
+    if len(File.read())<5:
+        with open(TempDirectoryPath('Database.data'), 'w', encoding='utf-8') as file:
+            file.write("")
+
+        with open(TempDirectoryPath('Responses.data'), 'w', encoding='utf-8') as file:
+            file.write(DefaultMessage)
+
+def ReadChatLogJson():
+    with open(r'Data\ChatLog.json', 'r', encoding='utf-8') as file:
+        chatlog_data =json.load(file)
+    return chatlog_data
+
+
+def ChatLogIntegration():
+    json_data = ReadChatLogJson()
+    formatted_chatlog = ""
+    for entry in json_data:
+        if entry["role"] == "user":
+            formatted_chatlog += f"User: {entry['content']}\n"
+        elif entry["role"] == "assistant":
+            formatted_chatlog += f"Assistant: {entry['content']}\n"
+
+    formatted_chatlog = formatted_chatlog.replace("User", Username +" ")
+    formatted_chatlog = formatted_chatlog.replace("Assistant", Assistantname + " ")
+
+    with open(TempDirectoryPath('Database.data'),"w", encoding='utf-8') as file:
+        file.write(AnswerModifier(formatted_chatlog))  
+
+def ShowChatsOnGUI():
+    File = open(TempDirectoryPath('Database.data'), "r", encoding='utf-8')
+    Data = File.read()
+    if len(str(Data))>0:
+        lines = Data.split('\n')
+        result = '\n'.join(lines)
+        File.close()
+        File = open(TempDirectoryPath('Responses.data'), "w", encoding='utf-8')
+        File.write(result)
+        File.close()
+
+def InitialExecution():
+    SetMicrophoneStatus("False")
+    ShowTextToScreen("")
+    ShowDefaultChatIfNoChats()
+    ChatLogIntegration()
+    ShowChatsOnGUI()
+InitialExecution()
+
+
+def MainExecution():
+    TaskExecution = False       
+    ImageExecution = False
+    ImageGenerationQuery = ""
+
+    SetAssistantStatus("Listening...")
+    Query = SpeechRecognition()
+    ShowTextToScreen(f"{Username}: {Query}")
+    SetAssistantStatus("Thinking...")
+    Decision = FirstLayerDMM(Query)
+
+    print("")
+    print(f"Decision : {Decision}")
+    print("")
+
+    G = any([i for i in Decision if i.startswith("general")])
+    R = any([i for i in Decision if i.startswith("realtime")])
+
+    Mearged_query = " and ".join(
+        [" ".join(i.split()[1:]) for i in Decision if i.startswith("general") or i.startswith("realtime")]
+    )
+
+    
+    for queries in Decision:
+        if "send whatsapp" in queries.lower():
+            TaskExecution = True
+            TextToSpeech("Which contact would you like to send the message to?")
+
+            # taking contact name
+            contact_query = SpeechRecognition()
+            contact_dict = {
+                "dad": "",
+                "mom": "",
+                "brother": ""
+            }
+
+            found_contact = None
+            for name in contact_dict:
+                if name in contact_query.lower():
+                    found_contact = name
+                    break
+
+            if found_contact:
+                TextToSpeech(f"You chose {found_contact}. What message would you like to send?")
+                message = SpeechRecognition()
+
+                contact_number = contact_dict[found_contact]
+                send_whatsapp_message(contact_number, message)  # Send 
+                TextToSpeech(f"Message sent to {found_contact}.")
+                pyautogui.press('enter')
+
+            else:
+                TextToSpeech("Sorry, I couldn't find that contact. Please try again.")
+            return True #after msg
+
+    #before wtsapp functionality
+    for queries in Decision:
+        if "generate" in queries:
+            ImageGenerationQuery = str(queries)
+            ImageExecution = True
+
+    for queries in Decision:
+        if TaskExecution == False:
+            if any(queries.startswith(func) for func in Functions):
+                run(Automation(list(Decision)))
+                TaskExecution = True
+
+    if ImageExecution == True:
+        with open(r"Frontend\Files\ImageGeneration.data", "w") as file: 
+            file.write(f"{ImageGenerationQuery}, True")
+
+        try:
+            p1 = subprocess.Popen(['python', r'Backend\ImageGeneration.py'],
+                                   stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                                   stdin=subprocess.PIPE, shell=False) 
+            subprocesses.append(p1)
+
+        except Exception as e:
+            print(f"Error starting ImageGeneration.py: {e}")
+
+    if G and R or R:
+        SetAssistantStatus("Searching...")
+        Answer = RealtimeSearchEngine(QueryModifier(Mearged_query))
+        ShowTextToScreen(f"{Assistantname}: {Answer}")
+        SetAssistantStatus("Answering...")
+        TextToSpeech(Answer)
+        return True
+    
+    else:
+        for Queries in Decision:        
+            if "general" in Queries:
+                SetAssistantStatus("Thinking...")
+                QueryFinal = Queries.replace("general ", "")
+                Answer = ChatBot(QueryModifier(QueryFinal))
+                ShowTextToScreen(f"{Assistantname} : {Answer}")
+                SetAssistantStatus("Answering...")
+                TextToSpeech(Answer)
+                return True 
+            
+            elif "realtime" in Queries:
+                SetAssistantStatus("Searching...")
+                QueryFinal = Queries.replace("realtime ", "")
+                Answer = RealtimeSearchEngine(QueryModifier(QueryFinal))
+                ShowTextToScreen(f"{Assistantname} : {Answer}")
+                SetAssistantStatus("Answering... ")
+                TextToSpeech(Answer)
+                return True 
+            
+            elif "exit" in Queries:
+                QueryFinal = "Okay, Bye!"
+                Answer = ChatBot(QueryModifier(QueryFinal))
+                ShowTextToScreen(f"{Assistantname} : {Answer}")
+                SetAssistantStatus("Answering...")
+                TextToSpeech(Answer)
+                SetAssistantStatus("Answering...")
+                os._exit(1)
+
+                
+def FirstThread():
+    while True:
+        CurrentStatus = GetMicrophoneStatus()
+        if CurrentStatus == "True":
+            MainExecution()
+        else:
+            AIStatus = GetAssistantStatus()
+            if "Available..." in AIStatus:
+                sleep(0.1)
+            else:
+                SetAssistantStatus("Available...")
+
+def SecondThread():
+    GraphicalUserInterface()
+
+if __name__ == "__main__":
+    thread2 = threading.Thread(target=FirstThread, daemon=True)
+    thread2.start()
+    SecondThread()
+
+
+
